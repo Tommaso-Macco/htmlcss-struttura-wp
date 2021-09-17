@@ -43,10 +43,13 @@ section {
 
 /* SECTION2 */
 
-#container {
+section>#container:after {
     content: "";
     display: table;
     clear: both;
+}
+
+#container {
     /* debug */
     background-color: skyblue;
     width: 100%;
